@@ -2,10 +2,14 @@
 header{
     background: #A4BCC3;
     padding:10px;
+    top: 0;
+    left:0;
+    right: 0;
     text-align:center;
     position:fixed;
     width:100%;
     z-index: 1000;
+    
   }
 
   .hero-container img{
@@ -26,8 +30,8 @@ header{
   
   .logo{
     margin:0;
-    
-  }
+
+     }
   
   .nav-toggle{
     display:none;
@@ -112,7 +116,14 @@ header{
   .nav-toggle-label span::after{
     top:7px;
   }
-
+  @media screen and (min-width:600px){
+    .nav-toggle-label{
+      display:none;
+    }
+    header{
+      display:grid;
+      grid-template-columns: 1fr auto minmax(600px, 3fr) 1fr;
+    }
   .logo{
     grid-column: 2/3;
   }
@@ -157,14 +168,7 @@ header{
   }
  
   
-  @media screen and (min-width:600px){
-    .nav-toggle-label{
-      display:none;
-    }
-    header{
-      display:grid;
-      grid-template-columns: 1fr auto minmax(600px, 3fr) 1fr;
-    }
+  
 
 body{
 
@@ -177,15 +181,25 @@ body{
     height: 300px;
 }
 
+@media screen and (max-width:600px){
+  .wrapper{
+    grid-template-columns: 1fr 1fr;
+  }
+}
 footer {
     height: 40vh;
     background:#A4BCC3;
     width:100%;
     display:flex;
     position:1000;
+    left: 0;
+    right: 0;
+
   }
   
   footer .logo {
     margin-top:15px;
     font-size:2em;
+    padding:10px;
+    margin-left: 10px;
 }
