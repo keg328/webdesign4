@@ -1,7 +1,7 @@
 
 header{
     background: #A4BCC3;
-    padding:10px;
+    padding:20px 0 20px 0;
     top: 0;
     left:0;
     right: 0;
@@ -12,11 +12,14 @@ header{
     
   }
 
+ 
   .hero-container img{
-    width: 100%;
+    width: 110%;
     height:100%;
     display: block;
     position: relative;
+    margin-left:-10px;
+    margin-right:0;
    }
    
   .container {
