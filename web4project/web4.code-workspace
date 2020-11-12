@@ -1,0 +1,13 @@
+{
+    "folders": [
+        {
+            "path": "."
+        },
+        {
+            "path": "..\\web4\\iconsimages"
+        }
+    ],
+    "settings": {
+        "liveServer.settings.multiRootWorkspaceName": "web4project"
+    }
+}
