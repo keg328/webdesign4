@@ -267,7 +267,9 @@ margin-top:20px;
 .radio input{
   margin-top: -10px;
   width:200px;
-  margin-left: -5px;
+  margin-left: 5px;
+  max-width: 200px;
+  
   
 }
 
@@ -278,10 +280,8 @@ form{
   margin-top: 20vh;
 }
 .radio-label{
-  margin-right: -10px;
-  font-family:sans-serif;
-  color: #4d4d;
- 
+  font-family: sans-serif;
+  color: black;
 }
 
 textarea {
