@@ -279,8 +279,17 @@ margin-top:20px;
   border: 1px solid #333;
   text-align: center;
   background-color:  #DFDAB9;
-
+  height:100% !important;
 }
+
+.box img{
+  width: 295px;
+  height:40%;
+  margin-top: -10px;
+  margin-left: -10px;
+}
+
+
 
 @media screen and(max-width:940px;){
   .wrapper{
