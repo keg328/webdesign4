@@ -303,9 +303,16 @@ margin-top:20px;
   padding:100px 0;
   width:100%;
   background-color: #DFDAB9;
-  
- 
-}
+  }
+
+  .donate .row{
+    columns:2;
+  }
+
+  .donate img{
+    height:400px;
+    box-shadow: black 2px;
+  }
 
 .radio-label{
   margin: 20px;
@@ -329,7 +336,7 @@ margin-top:20px;
 
 form{
   width: 300px; 
-  margin-left: 300px;
+  margin-left: 20px;
   
 }
 .radio-label{
