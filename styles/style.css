@@ -20,7 +20,7 @@ header{
   .hero-container img{
     width: 110%;
     height:70%;
-    z-index:-1000;
+    z-index:0;
     display: block;
     position: relative;
     margin-left:-10px;
@@ -37,6 +37,8 @@ header{
     text-align: center;
     text-transform: none;
     color:white;
+    font-size: 2em;
+    text-shadow: black 2px 2px;
      }
    
   .container {
@@ -212,8 +214,26 @@ body{
   float: left;
 }
 
+
+.hero-button{
+  margin: 20px auto;
+  z-index:5;
+  padding: 5px 15px;
+  display:block;
+ 
+  border-radius: 20px;
+  position: relative;
+  top:500px;
+  margin-left: 425px;
+  background-color:#A4BCC3;
+  color:white;
+  width:100px;
+  height:40px;
+} 
+
 .about{
   padding: 100px 0;
+  
 }
 
 .about .row{
@@ -230,29 +250,52 @@ margin-top:20px;
   columns:3;
 }
 
+
+.about, .donate{
+  opacity:100%;
+  
+  
+}
+
 .events{
   padding:100px 0;
+  background-color:#4F3730;
+}
+
+.events h2{
+  color: white;
 }
 
 .wrapper{
   width:100%;
-  margin: 20px 20px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 20px;
+  gap: 10px;
 }
 
 .box{
   padding: 10px;
+  width: 275px;
   border: 1px solid #333;
   text-align: center;
+  background-color:  #DFDAB9;
+
 }
 
-@media screen and (max-width:600px){
+@media screen and(max-width:940px;){
   .wrapper{
     grid-template-columns: 1fr 1fr;
+  
   }
 }
+}
+
+.donate{
+  padding:100px 0;
+  width:100%;
+  background-color: #DFDAB9;
+  
+ 
 }
 
 .radio-label{
@@ -277,8 +320,8 @@ margin-top:20px;
 
 form{
   width: 300px; 
-  padding: 35px;
-  margin-top: 20vh;
+  margin-left: 300px;
+  
 }
 .radio-label{
   font-family: sans-serif;
@@ -315,6 +358,11 @@ textarea {
   display:block;
   outline: darken;
   border-radius: 10px;
+}
+
+.contact{
+  padding: 100px 0;
+  background-color: #4F3730;;
 }
 
 footer {
