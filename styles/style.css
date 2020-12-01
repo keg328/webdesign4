@@ -18,12 +18,12 @@ header{
 }
 
   .hero-container img{
-    width: 100%;
+    width: 110%;
     height:700px;
     z-index:-100;
     display: block;
     position: relative;
-    margin-left:0;
+    margin-left:-10px;
     margin-right:0;
     filter:blur(2px);
    }
@@ -210,6 +210,10 @@ body{
 
 }
 
+p{
+  margin-left: 0;
+}
+
  .row{
   width:940px;
   float: left;
@@ -242,6 +246,7 @@ body{
 }
 .about .row{
   columns:2;
+  width:940px !important;
 }
 
 .about img{
@@ -311,6 +316,7 @@ margin-top:20px;
 
   .donate .row{
     columns:2;
+    width:940px;
   }
 
   .donate img{
@@ -388,11 +394,12 @@ textarea {
 footer {
     height: 40vh;
     background:#A4BCC3;
-    width:100%;
+    width:110%;
     display:flex;
     position:1000;
     left: 0;
     right: 0;
+    margin-left:-10px;
 
   }
   
