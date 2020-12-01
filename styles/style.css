@@ -14,7 +14,7 @@ header{
 
  
 .hero-container{
-  margin-bottom: 50px;
+  margin-bottom: 0;
 }
 
   .hero-container img{
@@ -49,6 +49,7 @@ header{
     overflow: hidden;
     clear: both;
   }
+  
   
   .logo{
     margin:0;
@@ -220,7 +221,6 @@ body{
   z-index:5;
   padding: 5px 15px;
   display:block;
- 
   border-radius: 20px;
   position: relative;
   top:500px;
