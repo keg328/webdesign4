@@ -205,15 +205,8 @@ h2{
  }
 
 body{
-
-    font-family: sans-serif ;
-
+font-family: sans-serif ;
 }
-
-p{
-  margin-left: 0;
-}
-
  .row{
   width:940px;
   float: left;
