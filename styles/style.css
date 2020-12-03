@@ -1,3 +1,7 @@
+*{
+margin:0;
+padding:0;
+}
 
 header{
     background: #A4BCC3;
@@ -13,19 +17,16 @@ header{
   }
 
  
-.hero-container{
-  margin-bottom: 0;
-}
 
-  .hero-container img{
-    width: 110%;
-    height:700px;
+
+  .hero-container{
+    margin-bottom: 0;
+    width: 100%;
+    height:100vh;
     z-index:-100;
-    display: block;
     position: relative;
-    margin-left:-10px;
-    margin-right:0;
-    filter:blur(2px);
+    background-size:cover;
+    background-image: url("../images/flower-img.jpg");
    }
 
    .type-overlay h1{
@@ -39,6 +40,7 @@ header{
     color:white;
     font-size: 2em;
     text-shadow: black 2px 2px;
+   
      }
    
   .container {
@@ -221,7 +223,7 @@ font-family: sans-serif ;
   border-radius: 20px;
   position: absolute;
   top:500px;
-  margin-left: 900px;
+  margin-right:50px;
   background-color:#A4BCC3;
   color:white;
   width:100px;
