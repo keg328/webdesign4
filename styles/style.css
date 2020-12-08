@@ -201,9 +201,9 @@ h2{
  } 
 
  h3{
-   font-family: sans-serif;
-   font-weight: 200;
-   font-size: .5em;
+   font-family: 'Rubik', sans-serif;
+   font-weight: 700;
+   font-size: 1.2em;
  }
 
 body{
@@ -280,7 +280,7 @@ margin-top:20px;
 .box{
   padding: 10px;
   width: 275px;
-  border: 1px solid #333;
+  border: none;
   text-align: center;
   background-color:  #DFDAB9;
   height:100% !important;
@@ -293,6 +293,14 @@ margin-top:20px;
   margin-left: -10px;
 }
 
+
+.box h3{
+  margin:10px 0;
+}
+
+.box p{
+  margin-bottom:20px;
+}
 .about, .donate{
   background-image: url("../images/wild-flowers.png");
   background-color:  #DFDAB9 ;
@@ -302,7 +310,7 @@ margin-top:20px;
 .events, .contact{
 background-image: url("../images/xv.png");
  }
- 
+
 @media screen and(max-width:940px){
   .wrapper{
     grid-template-columns: 1fr 1fr;
