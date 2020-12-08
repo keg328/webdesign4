@@ -300,11 +300,9 @@ margin-top:20px;
 
 
 .events, .contact{
-  background-color:#4F3730;
-  background-image: url("../images/xv.png");
+background-image: url("../images/xv.png");
+ }
  
-
-}
 @media screen and(max-width:940px){
   .wrapper{
     grid-template-columns: 1fr 1fr;
