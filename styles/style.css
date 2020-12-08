@@ -263,7 +263,7 @@ margin-top:20px;
 
 .events{
   padding:100px 0;
-  background-color:#4F3730;
+ background-color:#4F3730;
 }
 
 .events h2{
@@ -293,8 +293,18 @@ margin-top:20px;
   margin-left: -10px;
 }
 
+.about, .donate{
+  background-image: url("../images/wild-flowers.png");
+  background-color:  #DFDAB9 ;
+}
 
 
+.events, .contact{
+  background-color:#4F3730;
+  background-image: url("../images/xv.png");
+ 
+
+}
 @media screen and(max-width:940px){
   .wrapper{
     grid-template-columns: 1fr 1fr;
@@ -383,7 +393,7 @@ textarea {
 
 .contact{
   padding: 100px 0;
-  background-color: #4F3730;;
+
 }
 
 footer {
