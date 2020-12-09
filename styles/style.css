@@ -257,6 +257,20 @@ font-family: sans-serif ;
   width:940px !important;
 }
 
+.contact p{
+  margin-bottom:20px;
+  color:white;
+}
+
+.contact h2{
+  color:white;
+}
+
+.contact h3{
+  margin-bottom: 40px;
+  color: white;
+}
+
 .about img{
 width: 470px;
 height:40%;
