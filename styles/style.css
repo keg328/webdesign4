@@ -405,7 +405,7 @@ textarea {
   border-radius: 10px;
 }
 
-#button {
+div#button {
   margin: 20px auto;
   padding: 5px 15px;
   display:block;
