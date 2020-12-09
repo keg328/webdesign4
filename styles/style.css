@@ -405,13 +405,6 @@ textarea {
   border-radius: 10px;
 }
 
-div#button {
-  margin: 20px auto;
-  padding: 5px 15px;
-  display:block;
-  outline: darken;
-  border-radius: 10px;
-}
 .contact{
   padding: 100px 0;
 
