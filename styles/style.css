@@ -252,6 +252,11 @@ font-family: sans-serif ;
 
 }
 
+.contact .row{
+  columns:2;
+  width:940px !important;
+}
+
 .about img{
 width: 470px;
 height:40%;
@@ -409,6 +414,13 @@ textarea {
   padding: 100px 0;
 
 }
+
+
+
+.contact img{
+  width: 470px;
+  height:40%;
+  }
 
 footer {
     height: 40vh;
