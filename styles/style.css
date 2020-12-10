@@ -223,18 +223,12 @@ font-family: sans-serif ;
 }
 
 
-.hero-button{
-  margin: 20px auto;
+#hero-button{
   z-index:5;
-  padding: 5px 15px;
   display:block;
-  border-radius: 20px;
   position: absolute;
   top:500px;
-  background-color:#A4BCC3;
-  color:white;
-  width:100px;
-  height:40px;
+  margin-left:200px;
 } 
 
 .about{
