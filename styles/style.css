@@ -219,6 +219,7 @@ font-family: sans-serif ;
 }
  .row{
   width:940px;
+  margin-bottom:20px;
   float: left;
 }
 
