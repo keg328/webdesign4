@@ -13,11 +13,11 @@
     <h1 class="logo">AREAC</h1>
   <input type="checkbox" id="nav-toggle" class="nav-toggle"> <nav>
 <ul class="navigation">
-<li><a data-scroll-nav="0">Home</a></li>
-<li><a data-scroll-nav="1">About</a></li>  
-<li><a data-scroll-nav="2">Donate</a></li>
-<li><a href="events.html" data-scroll-nav="3">Events</a></li>
-<li><a data-scroll-nav="4">Contact</a></li>
+<li><a href="#home">Home</a></li>
+<li><a href="#about">About</a></li>  
+<li><a href="#donate">Donate</a></li>
+<li><a href="#events">Events</a></li>
+<li><a href="#contact">Contact</a></li>
 </ul>
 </nav><!--end navigation-->
 <label for="nav-toggle" class="nav-toggle-label">
@@ -25,17 +25,18 @@
  </label> 
 </header>
 </head>
+<script src="js/script.js"></script>
 <body>
-<section class="home" data-scroll-index="0">
+<section id="home" class="home">
   <div class="hero-container">
     <div class="type-overlay">
       <h1>Help AREAC Continue to Promote Environmental Protection</h1>
-      <div id="hero-button" style="padding: 5px 15px; display:block; border-radius: 20px; background-color:#A4BCC3;  width:55px; height:20px;"><a href="index.html" data-scroll-nav="2" style="text-decoration: none; color:white; text-align: center;">Donate</a></div>
+      <div id="hero-button" style="padding: 5px 15px; display:block; border-radius: 20px; background-color:#A4BCC3;  width:55px; height:20px;"><a href="#donate" style="text-decoration: none; color:white; text-align: center;">Donate</a></div>
     </div><!--end type-overlay-->
 </div><!--end hero-container-->
 </section>
 
- <section class="about" data-scroll-index="1">
+ <section id="about" class="about">
   <h2>About AREAC</h2>
 
   <div class="container">
@@ -50,7 +51,7 @@
     </div><!--end container-->
  </section><!--end about-->
   
-<section class="events" data-scroll-index="2">
+<section id="events" class="events">
 <h2>Events</h2>
   <div class="container">
       <div class="wrapper">
@@ -80,7 +81,7 @@
 </div><!-- end container-->
 </section><!--end events-->
 
-<section class="donate" data-scroll-index="3">
+<section id="donate" class="donate">
 <h2>Donate</h2></a>
 <div class="container">
   <div class="row">
@@ -117,7 +118,7 @@
 </div>
 </section>
 
-<section class="contact" data-scroll-index="4">
+<section id="contact" class="contact">
 <h2>Contact Us</h2>
 <div class="container">
 <div class="row">
@@ -138,7 +139,7 @@
 </section>
 
 
-<script src="js/script.js"></script>
+
 </body>
 
 <footer>
