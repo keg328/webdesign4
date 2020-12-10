@@ -52,7 +52,16 @@ header{
     clear: both;
   }
   
+  .columns_2 {
+    width: 460px;
+    float: left;
+    margin-right: 20px;
+  }
   
+  .columns_2:last-of-type {
+    margin-right: 0;
+  }
+
   .logo{
     margin:0;
     color: white;
@@ -447,5 +456,69 @@ footer {
     margin-top:15px;
     font-size:2em;
     padding:10px;
-    margin-left: 10px;
+    margin-left: 30px;
+  }
+
+
+  
+  footer a:link {
+    color: white !important;
+    text-decoration: none !important;
+  
+  }
+  
+  footer a:visited {
+    color: purple !important;
+    text-decoration: none !important;
+  
+  }
+  
+  footer a:hover {
+    color: black !important;
+    text-decoration: none !important;
+  
+  }
+  
+  footer a:active {
+    color: white !important;
+    text-decoration: none !important;
+  }
+  
+  .copyright{
+    width: 100%;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .copyright img{
+    height:100%;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-left: -10px;
+  }
+  
+  .copyright p{
+    margin-bottom: 10px;
+    font-family:"Rubik", sans-serif;
+    font-weight: 100;
+    color: white;
+  }
+  
+  .navbar{
+    margin-top: 20px;
+    font-family:"Rubik", sans-serif !important;  
+  }
+  
+  .navbar:a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 0px;
+    text-decoration: none;
+  }
+  
+  i{
+    font-size:1.6em;
   }
