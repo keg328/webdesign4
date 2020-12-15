@@ -80,7 +80,7 @@ header{
     left:0;
     background:#A4BCC3;
     width:100%;
-   transform: scale(1,0);
+    transform: scale(1,0);
     transition: transform 400ms ease-out;
     transform-origin:top;
   }
