@@ -79,26 +79,30 @@ header{
   }
 
  
-
+#about p{
+  line-height: 1.6;
+}
 
   .hero-container{
     display:block;
-    width: 100%;
-    margin-right: auto;
+    width:100%;
+    margin-right: none;
     height: 600px;
-    background-image: url("../images/flower-img.jpg");
+    background-image: url("/webdesign4/images/flower-img.jpg");
     background-size: cover;
-    margin-left:auto;
+    background-position-x: right;
+
+    margin-left:none;
    max-width: fit-content;
     clear:both;
-    margin-bottom:-60px;}
+    }
 
 
  
 
  h1{
    width:100%;
-   font-family:'Rubik', sans-serif;
+   font-family:'Signika', sans-serif;
    text-transform: none;
    font-size:2em;
    text-align:center;
@@ -109,7 +113,7 @@ header{
 
    .type-overlay h1{
     width: 100%;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Signika', sans-serif;
     position: absolute;
     padding-top:250px;
     z-index: 5;
@@ -133,7 +137,7 @@ header{
     width: 460px;
     float: left;
     margin-right: 20px;
-    height:fit-content;
+   
   }
   
   .columns_2:last-of-type {
@@ -330,13 +334,10 @@ font-family: sans-serif ;
 .about, .donate, .events ,.contact{
   margin-left:-20px;
 }
-.about .row{
-  width:940px !important;
-}
+
 
 .contact .row{
   columns:2;
-  width:940px !important;
 }
 
 .contact p{
@@ -534,7 +535,7 @@ footer {
     margin-top:40px;
     font-size:2em;
     padding:10px;
-    margin-left:-10px;
+    margin-left:-415px;
   }
 
 footer svg{
