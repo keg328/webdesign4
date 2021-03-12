@@ -60,6 +60,10 @@ padding:0;
 .columns_12:last-of-type {
   margin-right: 0;
 }
+.row{
+  margin-bottom:20px;
+  float:left;
+}
 
 header{
     background: #A4BCC3;
@@ -78,40 +82,43 @@ header{
 
 
   .hero-container{
-   display:block;
-    width: auto;
+    display:block;
+    width: 100%;
     margin-right: auto;
-
-   margin-left:auto;
-    overflow:hidden;
+    height: 600px;
+    background-image: url("../images/flower-img.jpg");
+    background-size: cover;
+    margin-left:auto;
+   max-width: fit-content;
     clear:both;
+    margin-bottom:-60px;}
 
-   }
-   .container {
-    display: block;
-    width: 940px;
-    margin-right: auto;
-    margin-left: auto;
-    overflow: visible;
-    clear: both;
-  }
-  
+
  
+
+ h1{
+   width:100%;
+   font-family:'Rubik', sans-serif;
+   text-transform: none;
+   font-size:2em;
+   text-align:center;
+   display:block;
+   z-index: 100;
+ }
   
 
    .type-overlay h1{
     width: 100%;
     font-family: 'Rubik', sans-serif;
     position: absolute;
-    top: 250px;
+    padding-top:250px;
     z-index: 5;
     text-align: center;
     text-transform: none;
-    color:white;
+    color: white;
     font-size: 2em;
     text-shadow: black 2px 2px;
-   
-     }
+   }
    
   .container {
     display: block;
@@ -126,6 +133,7 @@ header{
     width: 460px;
     float: left;
     margin-right: 20px;
+    height:fit-content;
   }
   
   .columns_2:last-of-type {
@@ -274,6 +282,7 @@ header{
  
   
 h2{
+  font-size: 1.7em;
    text-align: center;
    margin-bottom:100px;
    font-family:'Rubik', sans-serif;
@@ -301,7 +310,9 @@ font-family: sans-serif ;
   margin-bottom:20px;
   float: left;
 }
-
+#donate .container {
+  height:100%;
+}
 
 #hero-button{
   z-index:5;
@@ -317,13 +328,10 @@ font-family: sans-serif ;
 }
 
 .about, .donate, .events ,.contact{
-  width:110% !important;
   margin-left:-20px;
 }
 .about .row{
-  columns:2;
   width:940px !important;
-
 }
 
 .contact .row{
