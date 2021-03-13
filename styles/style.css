@@ -91,14 +91,14 @@ header{
     background-image: url("/webdesign4/images/flower-img.jpg");
     background-size: cover;
     background-position-x: right;
-
-  margin-left:none;
-   max-width: fit-content;
+    margin-left:none;
     clear:both;
     }
 
 
- 
+ p{
+   font-size: 1em;
+ }
 
  h1{
    width:100%;
@@ -314,9 +314,8 @@ font-family: sans-serif ;
   margin-bottom:20px;
   float: left;
 }
-#donate .container {
-  height:100%;
-}
+
+
 
 #hero-button{
   z-index:5;
@@ -352,7 +351,7 @@ font-family: sans-serif ;
 }
 
 .about img{
-width: 470px;
+width: 460px;
 height:40%;
 margin-top:20px;
 }
@@ -380,7 +379,7 @@ margin-top:20px;
 .wrapper{
   width:100%;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr ;
   gap: 10px;
 }
 
@@ -390,12 +389,12 @@ margin-top:20px;
   border: none;
   text-align: center;
   background-color:  #DFDAB9;
-  height:100% !important;
+  height:400px;
 }
 
 .box img{
   width: 295px;
-  height:40%;
+  height:40% !important;
   margin-top: -10px;
   margin-left: -10px;
 }
@@ -407,11 +406,13 @@ margin-top:20px;
 
 .box p{
   margin-bottom:20px;
+  line-height:1.4;
 }
 .about, .donate{
   background-image: url("../images/wild-flowers.png");
   background-color:  #DFDAB9 ;
 }
+
 
 
 .events, .contact{
@@ -421,6 +422,7 @@ background-image: url("../images/xv.png");
 @media screen and(max-width:940px){
   .wrapper{
     grid-template-columns: 1fr 1fr;
+    align-content: center;
   
   }
 }
@@ -428,12 +430,10 @@ background-image: url("../images/xv.png");
 
 .donate{
   padding:100px 0;
-  width:100%;
   background-color: #DFDAB9;
   }
 
   .donate .row{
-    columns:2;
     width:940px;
   }
 
@@ -512,7 +512,7 @@ textarea {
 
 
 .contact img{
-  width: 470px;
+  width: 460px;
   height:40%;
   }
 
