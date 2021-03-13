@@ -92,7 +92,7 @@ header{
     background-size: cover;
     background-position-x: right;
 
-    margin-left:none;
+  margin-left:none;
    max-width: fit-content;
     clear:both;
     }
@@ -331,18 +331,15 @@ font-family: sans-serif ;
   
 }
 
-.about, .donate, .events ,.contact{
+.about, .donate, .events{
   margin-left:-20px;
 }
 
 
-.contact .row{
-  columns:2;
-}
-
-.contact p{
+.contact p {
   margin-bottom:20px;
   color:white;
+  line-height:1.4;
 }
 
 .contact h2{
