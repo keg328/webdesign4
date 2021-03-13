@@ -352,7 +352,7 @@ font-family: sans-serif ;
 }
 
 .about img{
-width: 470px;
+width: 460px;
 height:40%;
 margin-top:20px;
 }
@@ -380,7 +380,7 @@ margin-top:20px;
 .wrapper{
   width:100%;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr ;
   gap: 10px;
 }
 
@@ -390,12 +390,12 @@ margin-top:20px;
   border: none;
   text-align: center;
   background-color:  #DFDAB9;
-  height:100% !important;
+  height:400px;
 }
 
 .box img{
   width: 295px;
-  height:40%;
+  height:40% !important;
   margin-top: -10px;
   margin-left: -10px;
 }
@@ -423,6 +423,7 @@ background-image: url("../images/xv.png");
 @media screen and(max-width:940px){
   .wrapper{
     grid-template-columns: 1fr 1fr;
+    align-content: center;
   
   }
 }
