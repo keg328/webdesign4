@@ -31,7 +31,7 @@ header{
 
    .type-overlay h1{
     width: 100%;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Signika', sans-serif;
     position: absolute;
     top: 250px;
     z-index: 5;
@@ -197,7 +197,8 @@ header{
 h2{
    text-align: center;
    margin-bottom:100px;
-   font-family:'Rubik', sans-serif;
+   font-family:'Signika', sans-serif;
+   font-size: 1.7em;
  } 
 
 h3{
@@ -242,7 +243,7 @@ font-family: sans-serif ;
   
 }
 
-.about, .donate, .events ,.contact{
+.about, .donate, .contact{
   width:110% !important;
   margin-left:-20px;
 }
@@ -272,10 +273,12 @@ margin-top:20px;
 .events{
   padding:100px 0;
  background-color:#4F3730;
+ 
 }
 
 .events h2{
   color: white;
+  margin-left:-30px;
 }
 
 .wrapper{
