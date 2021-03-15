@@ -182,7 +182,7 @@ header{
     color: white;
     text-decoration: none;
     font-size: 1.2rem;
-    text-transform: none;
+    text-transform: none !important;
     opacity: 0;
     transition: opacity 150ms ease-out;
     
@@ -322,7 +322,9 @@ font-family: sans-serif ;
   display:block;
   position: absolute;
   top:500px;
-  margin-left:200px;
+  margin-left:auto;
+  margin-right:auto;
+  text-align:center;
 } 
 
 .about{
