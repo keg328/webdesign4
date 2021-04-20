@@ -4,6 +4,9 @@ padding:0;
 }
 /* ------- [ Simple Grid ] ------- */
 
+section{
+  position:
+}
 /* 2 Columns */
 .columns_2 {
   width: 460px;
@@ -88,7 +91,7 @@ header{
     width:100%;
     margin-right: none;
     height: 600px;
-    background-image: url("/webdesign4/images/flower-img.jpg");
+    background: url("../images/flower-img.jpg");
     background-size: cover;
     background-position-x: right;
     margin-left:none;
@@ -411,14 +414,14 @@ margin-top:20px;
   line-height:1.4;
 }
 .about, .donate{
-  background-image: url("../images/wild-flowers.png");
+  background: url("../images/wild-flowers.png");
   background-color:  #DFDAB9 ;
 }
 
 
 
 .events, .contact{
-background-image: url("../images/xv.png");
+background: url("../images/xv.png");
  }
 
 @media screen and(max-width:940px){
