@@ -502,3 +502,5 @@ footer a:active {
 i{
   font-size:1.6em;
 }
+
+.screen-reader-text { position: absolute; left: -9999px; top: -9999px; }
