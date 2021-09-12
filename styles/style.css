@@ -529,19 +529,19 @@ footer {
     position:1000;
     left: 0;
     right: 0;
-    margin-left:-62.5%;
+    margin-left:-10px;
 
   }
   
   footer .logo {
-    margin-top:250%;
+    margin-top:40px;
     font-size:2em;
-    padding:62.5%;
-    margin-left:-2593.75%;
+    padding:10px;
+    margin-left:-415px;
   }
 
 footer svg{
-  padding-right:125%;
+  padding-right:20px;
 }
   
   footer a:link {
@@ -576,13 +576,13 @@ footer svg{
   .copyright img{
     height:100%;
     width: 100%;
-    margin-bottom: 62.5%;
-    margin-top:125%;
-    margin-left: -62.5%;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-left: -10px;
   }
   
   .copyright p{
-    margin-bottom: 62.5%;
+    margin-bottom: 10px;
     font-family:"Rubik", sans-serif;
     font-weight: 100;
     color: white;
