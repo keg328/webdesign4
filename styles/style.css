@@ -459,17 +459,17 @@ background: url("../images/xv.png");
 }
 
 .radio input{
-  margin-top: -10px;
-  width:200px;
-  margin-left: -20px;
-  max-width: 200px;
+  margin-top: -62.5%;
+  width:1250%;
+  margin-left: -125%;
+  max-width: 1250%;
   
   
 }
 
 form{
-  width: 300px; 
-  margin-left: 20px;
+  width: 1875%; 
+  margin-left: 125%;
   
 }
 .radio-label{
@@ -479,7 +479,7 @@ form{
 
 textarea {
   resize: vertical;
-  max-height: 100px;
+  max-height: 625%;
 }
 input{
   width: 100%;
@@ -487,7 +487,7 @@ input{
 
 textarea{
   resize: vertical;
-  max-height:100px;
+  max-height:625%;
 }
 input,
 textarea {
