@@ -272,7 +272,7 @@ margin-top:20px;
 }
 
 .events{
-width:100%;
+width:100%
  padding:100px 0;
  background-color:#4F3730;
  
@@ -320,13 +320,15 @@ width:100%;
   margin-bottom:20px;
 }
 .about, .donate{
-  background-image: url("../images/wild-flowers.png") repeat;
+  background-image: url("../images/wild-flowers.png");
   background-color:  #DFDAB9 ;
 }
 
 
 .events, .contact{
-background-image: url("../images/xv.png") repeat;
+background-image: url("../images/xv.png");
+background-size:cover;
+background-color:#4F3730;
  }
 
 @media screen and(max-width:940px){
@@ -436,7 +438,7 @@ footer .logo {
   margin-top:40px;
   font-size:2em;
   padding:10px;
-  margin-left:-10px;
+  margin-left:-415px;
 }
 
 footer svg{
@@ -500,6 +502,7 @@ footer a:active {
   padding: 20px 0px;
   text-decoration: none;
 }
+
 
 i{
   font-size:1.6em;
