@@ -59,6 +59,7 @@ padding:0;
   margin-right: 0;
 }
 .row{
+  width:940px;
   margin-bottom:20px;
   float:left;
 }
@@ -279,7 +280,6 @@ body{
 font-family: sans-serif ;
 }
  .row{
-  width:940px;
   float: left;
   margin-bottom:20px;
 }
@@ -332,15 +332,16 @@ margin-top:20px;
 }
 
 .events{
-width:100%;
  padding:100px 0;
- background-color:#4F3730;
- 
 }
 
 .events h2{
   color: white;
   margin-left:-30px;
+  font-size: 1.7em;
+  text-align: center;
+  margin-bottom:100px;
+  font-family:'Rubik', sans-serif;
 }
 
 .wrapper{
@@ -387,8 +388,7 @@ width:100%;
 
 .events, .contact{
 background-image: url("../images/xv.png");
-background-size:cover;
-background-color:#4F3730;
+background-position-x: center;
  }
 
 @media screen and(max-width:940px){
