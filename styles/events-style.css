@@ -320,13 +320,13 @@ width:100%;
   margin-bottom:20px;
 }
 .about, .donate{
-  background-image: url("../images/wild-flowers.png");
+  background-image: url("../images/wild-flowers.png") repeat;
   background-color:  #DFDAB9 ;
 }
 
 
 .events, .contact{
-background-image: url("../images/xv.png");
+background-image: url("../images/xv.png") repeat;
  }
 
 @media screen and(max-width:940px){
